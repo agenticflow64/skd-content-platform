@@ -1,0 +1,23 @@
+.env
+.mcp.json
+CLAUDE.md
+
+# Subsystem-local noise not covered by their own .gitignore
+**/_integration/
+**/.claude/
+**/CLAUDE.md
+**/.mcp.json
+
+# Ephemeral orchestration + research artifacts
+.claude/
+artifacts/
+.git-backups/
+.playground_cache/
+.playwright-mcp/
+
+# Research data (too large for git)
+telegram_posts.csv
+rec_playground_sample.csv
+
+# Presentation assets (binary, large)
+prezentation/
